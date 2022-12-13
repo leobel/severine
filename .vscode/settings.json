@@ -1,0 +1,45 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1667680892602,
+    "liveSassCompile.settings.autoprefix": [
+        ">1%",
+        "last 2 versions"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "liveSassCompile.settings.excludeList": [
+    
+        "**/node_modules/**",
+        ".vscode/**",
+        "**/bootstrap/scss/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/nutras/assets/css"
+        }
+    ],
+    "editor.fontSize": 14,
+    "prettier.tabWidth": 4,
+    "projectManager.git.baseFolders": [
+        "/Users/claudia/Documents/DOCUMENTS/STUDY/ORT/Proyect Web/seve/severine"
+    ],
+    "window.zoomLevel": 1
+}
