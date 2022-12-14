@@ -134,152 +134,57 @@
                 </div>
                 <!-- Section Title End -->
                 <!-- Articles Wrapper Start -->
+
+
+
                 <div class="tratamientos-wrapper">
                     <div class="row gx-xxl-5">
-                        <div class="col-lg-4 col-sm-6">
-                            <!-- Single Post Start -->
-                            <div class="single-tratamientos" style="border: 1px solid #2E2E2E">
-                                <div class="tratamientos-images">
-                                    <a href="tratamientos-details-left-sidebar.html"><img src="assets/images/blog/image_1.png" alt="image_1"></a>
-                                </div>
-                                <div class="tratamientos-content">
-                                    <div class="content-wrapper">
-                                        <p class="author">Por: <a href="#">Severine</a></p>
-                                        <ul class="meta">
-                                            <li>12 diciembre</li>
-                                            <li>2023</li>
-                                        </ul>
-                                        <h4 class="title"><a href="tratamientos-details-left-sidebar.html">Lawsonia
-                                            </a></h4> 
-                                            
-                                        <p class="pt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <!-- Single Post End -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <!-- Single Post Start -->
-                            <div class="single-tratamientos" style="border: 1px solid #2E2E2E">
-                                <div class="tratamientos-images">
-                                    <a href="tratamientos-details-left-sidebar.html"><img src="assets/images/blog/image_2.png" alt="tratamientos"></a>
-                                </div>
-                                <div class="tratamientos-content">
-                                    <div class="content-wrapper">
-                                        <p class="author">Por: <a href="#">Severine</a></p>
-                                        <ul class="meta">
-                                            <li>08 hr 20 mins</li>
-                                            <li>28 Lectures</li>
-                                        </ul>
-                                        <h4 class="title"><a href="tratamientos-details-left-sidebar.html">Cassia
-                                            </a></h4> 
-                                        <p class="pt-3">
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Post End -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <!-- Single Post Start -->
-                            <div class="single-tratamientos" style="border: 1px solid #2E2E2E">
-                                <div class="tratamientos-images">
-                                    <a href="tratamientos-details-left-sidebar.html"><img src="assets/images/blog/image_3.png" alt=""></a>
-                                </div>
-                                <div class="tratamientos-content">
-                                    <div class="content-wrapper">
-                                        <p class="author">Por: <a href="#">Severine</a></p>
-                                        <ul class="meta">
-                                            <li>08 hr 20 mins</li>
-                                            <li>28 Lectures</li>
-                                        </ul>
-                                        <h4 class="title"><a href="tratamientos-details-left-sidebar.html">Blond
-                                            </a></h4> 
-                                        <p class="pt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Post End -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <!-- Single Post Start -->
-                            <div class="single-tratamientos" style="border: 1px solid #2E2E2E">
-                                <div class="tratamientos-images">
-                                    <a href="tratamientos-details-left-sidebar.html"><img src="assets/images/blog/image_4.png" alt=""></a>
-                                </div>
-                                <div class="tratamientos-content">
-                                    <div class="content-wrapper">
-                                        <p class="author">Por: <a href="#">Severine</a></p>
-                                        <ul class="meta">
-                                            <li>08 hr 20 mins</li>
-                                            <li>28 Lectures</li>
-                                        </ul>
-                                        <h4 class="title"><a href="tratamientos-details-left-sidebar.html">Noisette
-                                            </a></h4> 
-                                        <p class="pt-3">
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single tratamientos End -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <!-- Single Post Start -->
-                            <div class="single-tratamientos" style="border: 1px solid #2E2E2E;">
-                                <div class="tratamientos-images">
-                                    <a href="tratamientos-details-left-sidebar.html"><img src="assets/images/blog/image_5.png" alt=""></a>
-                                </div>
-                                <div class="tratamientos-content">
-                                    <div class="content-wrapper">
-                                        <p class="author">Por: <a href="#">Severine</a></p>
-                                        <ul class="meta">
-                                            <li>12 diciembre 2023</li>
-                                            <li>28 Lectures</li>
-                                        </ul>
-                                        <h4 class="title"><a href="tratamientos-details-left-sidebar.html">Hibiscus
-                                            </a></h4> 
-                                        <p class="pt-3">
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Post End -->
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <!-- Single Post Start -->
-                            <div class="single-tratamientos" style="border: 1px solid #2E2E2E;">
-                                <div class="tratamientos-images">
-                                    <a href="tratamientos-details-left-sidebar.html"><img src="assets/images/blog/image-6.png" alt=""></a>
-                                </div>
-                                <div class="tratamientos-content">
-                                    <div class="content-wrapper">
-                                        <p class="author">Por: <a href="#">Severine</a></p>
-                                        <ul class="meta">
-                                            <li>12 diciembre 2023</li>
-                                            <li>28 Lectures</li>
-                                        </ul>
-                                        <h4 class="title"><a href="tratamientos-details-left-sidebar.html">Hibiscus
-                                            </a></h4> 
-                                        <p class="pt-3">
-                                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                                        </p>
-                                        <a href="#" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Post End -->
-                        </div>
+<?php
+$servername = "localhost";
+$username = "admin";
+$password = "123";
+$dbname = "severine";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+// echo "Connected successfully";
+
+$sql = "SELECT * FROM blogs";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  while($row = $result->fetch_assoc()) { ?>
+    <div class="col-lg-4 col-sm-6">
+        <div class="single-tratamientos" style="border: 1px solid #2E2E2E">
+            <div class="tratamientos-images">
+                <a href="tratamientos-details-left-sidebar.html"><?= '<img src="assets/images/blog/'.$row["image"].'"'.'>' ?> </a>
+            </div>
+            <div class="tratamientos-content">
+                <div class="content-wrapper">
+                    <p class="author">Por: <a href="#"><?= $row["author"] ?></a></p>
+                    <ul class="meta">
+                        <li><?= date("j F", strtotime($row["date"])) ?></li>
+                        <li><?= date("Y", strtotime($row["date"])) ?></li>
+                    </ul>
+                    <h4 class="title"><a href="tratamientos-details-left-sidebar.html"><?= $row["title"] ?>
+                        </a></h4> 
+                    <p class="pt-3"><?= $row["description"] ?>
+                    </p>
+                    <a href="<?= 'blog-details.php?id='.$row['id'] ?>" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<?php }
+}
+$conn->close();
+?>
                     </div>
                 </div>
                 <!-- Articles Wrapper End -->

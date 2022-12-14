@@ -16,6 +16,7 @@
 
     <!-- Icon Font CSS -->
     <link rel="stylesheet" href="assets/css/plugins/icofont.min.css">
+    
     <link rel="stylesheet" href="assets/css/plugins/flaticon.css">
     <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
 
@@ -37,7 +38,31 @@
 </head>
 
 <body>
+<?php
+$servername = "localhost";
+$username = "admin";
+$password = "123";
+$dbname = "severine";
 
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+// echo "Connected successfully";
+$id = trim($_GET['id']);
+
+$sql = "SELECT * FROM blogs where id=".$id;
+echo $sql;
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  $row = $result->fetch_assoc();
+}
+$conn->close();
+?>
     <div class="main-wrapper">
 
         <!-- Header Section Start -->
@@ -263,16 +288,16 @@
                                 <div class="blog-details-admin-meta">
                                     <div class="author">
                                         <div class="author-thumb">
-                                            <a href="#"><img src="assets/images/author/author-01.jpg" alt="Author"></a>
+                                            <a href="#"><?= '<img src="assets/images/blog/'.$row["image"].'"' ?> alt="Author"></a>
                                         </div>
                                         <div class="author-name">
-                                            <p class="name">By: <a href="#">Ryan Patterson</a></p>
+                                            <p class="name">By: <a href="#"><?= $row["author"] ?></a></p>
                                         </div>
                                     </div>
                                     <div class="blog-meta">
-                                        <span> <i class="icofont-calendar"></i> 21 March, 2021</span>
-                                        <span> <i class="icofont-heart"></i> 2,568+ </span>
-                                        <span class="tag"><a href="#">Science</a></span>
+                                        <span> <i class="icofont-calendar"></i> <?= date("j F, Y", strtotime($row["date"])) ?></span>
+                                        <span> <i class="icofont-heart"></i> <?= $row["likes"] ?> </span>
+                                        <span class="tag"><a href="#"><?= $row["tags"] ?></a></span>
                                     </div>
                                 </div>
 

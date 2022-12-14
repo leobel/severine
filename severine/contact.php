@@ -1,6 +1,43 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
+<?php
+    require '../vendor/autoload.php';
+    use \Mailjet\Resources;
+    echo $_SERVER['REQUEST_METHOD'];
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') { 
+        echo("HEREEEE!!");
+        $mj = new \Mailjet\Client('1aaeedd3f2a2197486d49b052c21cef2','1704e7e64813be0f36d3f638d211d146',true,['version' => 'v3.1']);
+        
+        $name = strip_tags(trim($_POST["name"]));
+        $email = strip_tags(trim($_POST["email"]));
+        $message = strip_tags(trim($_POST["message"]));
 
+        echo $name, $email, $message;
+
+        $body = [
+            'Messages' => [
+            [
+                'From' => [
+                'Email' => "leobelizquierdo@gmail.com",
+                'Name' => "Web Design"
+                ],
+                'To' => [
+                [
+                    'Email' => "leobelizquierdo@gmail.com",
+                    'Name' => "Julio"
+                ]
+                ],
+                'Subject' => "Greetings from ".$name." (".$email.")",
+                'TextPart' => $message,
+                'CustomID' => "AppGettingStartedTest"
+            ]
+            ]
+        ];
+        $response = $mj->post(Resources::$Email, ['body' => $body]);
+        $response->success() && var_dump($response->getData());
+        // echo "<div style='position: absolute; top: 50%; left: 50%; padding: 50px; background-color: beige'> <p>Email enviado!!!</p></div>";
+    }
+?>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -61,7 +98,7 @@
                                 <li><a href="sevegetal.html">Sevegetal</a></li>
                                 <li><a href="#">Blog</a>
                                 </li>
-                                <li><a href="contact.html">Contacto</a></li>
+                                <li><a href="contact.php">Contacto</a></li>
                             </ul>
 
 
@@ -151,7 +188,7 @@
 
                                 <!-- Contact Form Start -->
                                 <div class="contact-form">
-                                    <form id="contact-form" action="assets/php/contact.php" method="POST">
+                                    <form id="contact-form" action="contact.php" method="POST">
                                         <div class="row gx-3">
                                             <div class="col-md-6">
                                                 <!-- Single Form Start -->
@@ -247,6 +284,7 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
 
 </body>
 
