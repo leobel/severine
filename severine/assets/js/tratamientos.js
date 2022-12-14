@@ -32,7 +32,7 @@ function listarTratamientos(category) {
                                 </a></h4> 
                             <p class="pt-3">${value.description}
                             </p>
-                            <a href="detail.html?item=${i + index}" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
+                            <a href="detail.html?item=${value.id}" class="btn btn-primary btn-hover-secondary mt-4">Ver más</a>
                         </div>
                         
                     </div>
