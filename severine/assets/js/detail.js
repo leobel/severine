@@ -39,7 +39,7 @@ $(document).ready(function () {
                                     ${value.description.split('.').map(d => `<p>${d}</p>`).join('')}
                                 </div>
                                 <div class="description-wrapper">
-                                    <h3 class="tab-title">Título dos:</h3>
+                                    <h3 class="tab-title">Origen:</h3>
                                     ${value.subtitle.split('.').map(d => `<p>${d}</p>`).join('')}
                                 </div>
                             </div>
@@ -72,7 +72,6 @@ $(document).ready(function () {
                         <li><i class="icofont-clock-time"></i> <strong>Duración</strong> <span>${value.duracion}</span></li>
                         <li><i class="icofont-bars"></i> <strong>Demanda</strong> <span>${value.demanda}</span></li>
                         <li><i class="icofont-book-alt"></i> <strong>Complejidad</strong> <span>${value.complejidad}</span></li>
-                        <li><i class="icofont-certificate-alt-1"></i> <strong>Certificado</strong> <span>${value.certificado}</span></li>
                     </ul>
                 </div>
                 <!-- <div class="info-btn">
@@ -83,7 +82,7 @@ $(document).ready(function () {
 
             <!-- Sidebar Widget Share Start -->
             <div class="sidebar-widget">
-                <h4 class="widget-title">Share Course:</h4>
+                <h4 class="widget-title">Compartirr tratamiento:</h4>
 
                 <ul class="social">
                     <li><a href="${value.socials.facebook}"><i class="icofont-facebook"></i></a></li>

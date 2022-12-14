@@ -145,33 +145,24 @@
              <!-- Tratamientos Category Wrapper Start  -->
              <div class="tratamientos-category-wrapper">
                 <div class="tratamientos-search search-2">
-                    <input type="text" placeholder="Search here">
+                    <input type="text" placeholder="Buscar">
                     <button><i class="icofont-search"></i></button>
                 </div>
-
+                 <!-- Section filter -->
                 <ul class="category-menu">
-                    <li><a class="active" href="#">All Courses</a></li>
-                    <li><a href="#">Cuidado</a></li>
-                    <li><a href="#">Recuperacion</a></li>
-                    <li><a href="#">Otros</a></li>
+                    <li><a class="active" onclick="listarTratamientos('')">Todos</a></li>
+                    <li><a onclick="listarTratamientos('cuidado')">Cuidado</a></li>
+                    <li><a onclick="listarTratamientos('recuperacion')">Recuperación</a></li>
+                    <li><a onclick="listarTratamientos('purificante')">Purificante</a></li>
                 </ul>
+                <!-- Section filter -->
             </div>
             <!-- Tratamientos Category Wrapper End  -->
 
-
-
-                <!-- Section filter -->
-                <div style="display: flex;">
-                    <a onclick="listarTratamientos('cuidado')" class="btn btn-primary btn-hover-secondary mt-4">Cuidado</a>
-                    <a onclick="listarTratamientos('recuperacion')" class="btn btn-primary btn-hover-secondary mt-4">Recuperacion</a>
-                    <a onclick="listarTratamientos('otros')" class="btn btn-primary btn-hover-secondary mt-4">Otros</a>
-                    <a onclick="listarTratamientos('')" class="btn btn-primary btn-hover-secondary mt-4" style="margin-left: auto;">clear</a>
-                </div>
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h6 class="sub-title">Nuestra alquimia</h6>
                     <h2 class="main-title">Tratamientos</h2>
-                    
                 </div>
                 <!-- Section Title End -->
                 <!-- Description start -->
